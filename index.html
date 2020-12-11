@@ -18,9 +18,53 @@
     </header>
     <main>
       <content>
-        <h1 class="action">Coming soon...</h1>
-      </content>
+        <banner>
+          <h1 class="action">Choose Your Next Adventure...</h1>
+        </banner>
+        <pickr>
+          <form>
+            <label for="dropdown" id="dropdown-label" class="question">How much time do you have?</label></br>
+            <select id="dropdown">
+             <option value="">--- select an option ---</option>
+              <option value="short">Short hikes (<1 hr) </option>
+              <option value="half day">Half day hikes (2-4 hours)</option>
+              <option value="full day">Full day hikes (>4 hours) </option>
+              <option value="multiday">Multi-day hikes</option>
+            </select></br>
+            <label class="question">What do you want to see?</label></br>
+            <label>
+              <input type="checkbox" name="features" value="waterfalls">Waterfalls
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="lookout">Views for miles
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="swimming">Swimming
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="caves">Caves
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="scrambling">Scrambling
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="navskills">Navigation skills
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="historical">Historical
+            </label><br>
+            <label>
+              <input type="checkbox" name="features" value="rainforest">Rainforest
+            </label><br>
+                <label>
+              <input type="checkbox" name="features" value="coastal">Coastal
+            </label><br>
+            <button type="submit" id="submit">Search</button>
+          </form>
+        </pickr>
+      <content>
     </main>
-    <footer><span id="copyright">&copy; 2020 Sally Baker</span></footer>
+    <footer><span id="copyright">&copy; 2020 Sally Baker</span>
+    </footer>
   </body>
 </html>

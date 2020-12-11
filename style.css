@@ -4,10 +4,11 @@
 }
 body {
 	height: 100vh;
-	color: black;
-	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
+	color: black;
+	font-family: 'Roboto', sans-serif;
 }
 header {
 	border-bottom: 3px solid #5FBB97;
@@ -18,8 +19,20 @@ header,footer {
 	padding: 0.25rem;
 }
 main {
-	display: flex;
 	flex-grow: 8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+banner, pickr {
+	display:flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+form {
+	max-width: 15rem;
+	border-radius: 5px;
+	padding: 1rem;
 }
 h1 {
 	font-size: 1.5rem;
@@ -27,5 +40,29 @@ h1 {
 h1.action {
 	font-family: 'Alegreya', serif;
 	font-size: 2rem;
-	padding: 3rem;
+}
+@media (max-width:449px) {
+	main {
+		display: flex;
+		flex-grow: 1;
+	}	
+	content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.banner, pickr {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media (min-width: 450px) {
+	main {
+		display: flex;
+	}
+	content {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 }
