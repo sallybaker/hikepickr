@@ -1,0 +1,31 @@
+* {
+	padding: 0; 
+	margin: 0; 	
+}
+body {
+	height: 100vh;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	border-bottom: 3px solid #5FBB97;
+}
+header,footer {
+	background-color: black;
+	color: white;
+	padding: 0.25rem;
+}
+main {
+	display: flex;
+	flex-grow: 8;
+}
+h1 {
+	font-size: 1.5rem;
+}
+h1.action {
+	font-family: 'Alegreya', serif;
+	font-size: 2rem;
+	padding: 3rem;
+}
