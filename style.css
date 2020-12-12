@@ -16,7 +16,7 @@ header {
 header,footer {
 	background-color: black;
 	color: white;
-	padding: 0.25rem;
+	padding: 0.5rem;
 }
 main {
 	flex-grow: 8;
@@ -40,6 +40,11 @@ h1 {
 h1.action {
 	font-family: 'Alegreya', serif;
 	font-size: 2rem;
+}
+a {
+	text-decoration: none;
+	color: white;
+
 }
 @media (max-width:449px) {
 	main {
