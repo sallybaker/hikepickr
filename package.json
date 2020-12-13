@@ -3,10 +3,26 @@
   "version": "0.0.1",
   "private": true,
   "description": "A hiking app that provides you with a list of trail options to suit your needs.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sallybaker/hikepickr.git"
@@ -27,6 +43,5 @@
   "license": "SEE LICENSE IN LICENCE",
   "bugs": {
     "url": "https://github.com/sallybaker/hikepickr/issues"
-  },
-  "homepage": "https://github.com/sallybaker/hikepickr#readme"
+  }
 }
