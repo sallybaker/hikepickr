@@ -1,3 +1,6 @@
 *.txt
 *.png
 *.numbers
+.DS_Store
+/node_modules
+/app
