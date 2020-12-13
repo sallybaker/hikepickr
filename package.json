@@ -1,0 +1,32 @@
+{
+  "name": "hikepickr",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A hiking app that provides you with a list of trail options to suit your needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sallybaker/hikepickr.git"
+  },
+  "keywords": [
+    "bushwalking",
+    "hiking",
+    "walking",
+    "trails",
+    "hikes",
+    "bushwalks",
+    "treks",
+    "outdoors",
+    "trekking",
+    "scrambling"
+  ],
+  "author": "Sally Baker",
+  "license": "SEE LICENSE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/sallybaker/hikepickr/issues"
+  },
+  "homepage": "https://github.com/sallybaker/hikepickr#readme"
+}
